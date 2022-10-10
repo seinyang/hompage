@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+
+import Header from "./component/header";
+import Slider from "./component/slider";
+import Defaultsection from"./component/defaultsection";
+import Defaultsection2 from"./component/defaultsection2";
+import News1 from"./component/news1";
+import Download from "./component/download";
+import Footer from ".//component/footer";
+
+
+
+// div를 묶어서 return해주기때문에
+import {Fragment} from "react";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+    <Fragment>
+
+    <Header />
+
+    <Slider />
+
+    <Defaultsection />
+
+    <Defaultsection2 />
+
+    <News1 />
+
+    <Download />
+
+    <Footer />
+
+    </Fragment>
   );
 }
 
