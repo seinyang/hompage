@@ -1,5 +1,5 @@
 import React from "react";
-//import Default15 from "./default15";
+
 
 
 function Defaultsection2(){

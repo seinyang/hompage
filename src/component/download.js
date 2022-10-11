@@ -10,9 +10,9 @@ function Download(){
             </div>
             {/* <!--Sponsors Slider--> */}
             <ul class="sponsors-carousel-two owl-theme owl-carousel">
-                <li><div class="image-box tool_tip" ><img src="images/nexmore/client/client-01-01.png" alt=""/></div></li>
-                <li><div class="image-box tool_tip" ><img src="images/nexmore/client/client-01-02.png" alt=""/></div></li>
-                <li><div class="image-box tool_tip" ><img src="images/nexmore/client/client-01-03.png" alt=""/></div></li>
+                <li><div class="image-box tool_tip" ><img src="./images/nexmore/client/client-01-01.png" alt=""/></div></li>
+                <li><div class="image-box tool_tip" ><img src="./images/nexmore/client/client-01-02.png" alt=""/></div></li>
+                <li><div class="image-box tool_tip" ><img src="./images/nexmore/client/client-01-03.png" alt=""/></div></li>
                 <li><div class="image-box tool_tip" ><img src="images/nexmore/client/client-01-04.png" alt=""/></div></li>
                 <li><div class="image-box tool_tip" ><img src="images/nexmore/client/client-01-05.png" alt=""/></div></li>
                 <li><div class="image-box tool_tip" ><img src="images/nexmore/client/client-01-06.png" alt=""/></div></li>

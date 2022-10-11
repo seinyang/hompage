@@ -16,6 +16,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
+
+
 //index.js는 메인프로그램
 //index.html과 index.js는 같이 움직이는것.root해놓은것에 삽입됨
 const root = ReactDOM.createRoot(document.getElementById('root'));

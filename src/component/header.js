@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 function Header(){
@@ -32,15 +33,15 @@ function Header(){
 
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="#">ai&big data</a>
+                                    <li class="dropdown"><Link to="#">ai&big data</Link>
                                         <ul>
-                                            <li><a href="nexmore/about.html">넥스모어소개</a></li>
-                                            <li><a href="nexmore/ceo.html">CEO인사말</a></li>
-                                            <li><a href="nexmore/history.html">회사연혁</a></li>
-                                            <li><a href="nexmore/org.html">조직도</a></li>
-                                            <li><a href="nexmore/partner.html">파트너</a></li>
-                                            <li><a href="nexmore/recruit.html">인재채용</a></li>
-                                            <li><a href="nexmore/map.html">오시는길</a></li>
+                                            <li><Link to="nexmore/about.html">넥스모어소개</Link></li>
+                                            <li><Link to="nexmore/ceo.html">CEO인사말</Link></li>
+                                            <li><Link to="nexmore/history.html">회사연혁</Link></li>
+                                            <li><Link to="nexmore/org.html">조직도</Link></li>
+                                            <li><Link to="nexmore/partner.html">파트너</Link></li>
+                                            <li><Link to="nexmore/recruit.html">인재채용</Link></li>
+                                            <li><Link to="nexmore/map.html">오시는길</Link></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">서비스사업본부</a>
