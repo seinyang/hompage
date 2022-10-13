@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -34,29 +34,29 @@ function Header() {
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
                       <li class="dropdown">
-                        <Link to="#">ai&big data</Link>
+                        <a href="#">회사소개</a>
                         <ul>
                           <li>
-                            <Link to="nexmore/about.html">넥스모어소개</Link>
+                            <a href="nexmore/about.html">넥스모어시스템즈</a>
                           </li>
 
+                          {/* <li> */}
+                          {/* <a href="nexmore/ceo.html">CEO인사말</a> */}
+                          {/* </li> */}
                           <li>
-                            <Link to="nexmore/ceo.html">CEO인사말</Link>
+                            <a href="nexmore/history.html">주요연혁</a>
                           </li>
                           <li>
-                            <Link to="nexmore/history.html">회사연혁</Link>
+                            <a href="nexmore/org.html">조직도</a>
                           </li>
                           <li>
-                            <Link to="nexmore/org.html">조직도</Link>
+                            <a href="nexmore/partner.html">파트너</a>
                           </li>
                           <li>
-                            <Link to="nexmore/partner.html">파트너</Link>
+                            <a href="nexmore/recruit.html">인재채용</a>
                           </li>
                           <li>
-                            <Link to="nexmore/recruit.html">인재채용</Link>
-                          </li>
-                          <li>
-                            <Link to="nexmore/map.html">오시는길</Link>
+                            <a href="nexmore/map.html">오시는길</a>
                           </li>
                         </ul>
                       </li>
@@ -135,16 +135,14 @@ function Header() {
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
                   <li class="dropdown">
-                    <a href="#">넥스모어</a>
+                    <a href="#">회사소개</a>
                     <ul>
                       <li>
-                        <a href="nexmore/about.html">넥스모어소개</a>
+                        <a href="nexmore/about.html">넥스모어시스템즈</a>
                       </li>
+                      <li>{/* <a href="nexmore/ceo.html">CEO인사말</a> */}</li>
                       <li>
-                        <a href="nexmore/ceo.html">CEO인사말</a>
-                      </li>
-                      <li>
-                        <a href="nexmore/history.html">회사연혁</a>
+                        <a href="nexmore/history.html">주요연혁</a>
                       </li>
                       <li>
                         <a href="nexmore/org.html">조직도</a>
