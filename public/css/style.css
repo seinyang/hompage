@@ -4675,6 +4675,14 @@ header.main-header.header-style-one.fixed-header.menu_fixed {
   font-size: 16px;
 }
 
+.abc {
+  justify-content: center;
+
+  display: flex;
+  width: 100%;
+  flex: 1 1 0;
+}
+
 /***
 
 ====================================================================

@@ -1,14 +1,18 @@
 //import logo from './logo.svg';
 //import './App.css';
 
+import Mainpage from "./component/mainpage";
 import Header from "./component/header";
-import Slider from "./component/slider";
-import Defaultsection from "./component/defaultsection";
-import Defaultsection2 from "./component/defaultsection2";
-import News1 from "./component/news1";
-import Download from "./component/download";
+import About from "./component/about";
+import History from "./component/history";
+import Org from "./component/org";
+import Partner from "./component/partner";
+import Recruit from "./component/recruit";
+import Map from "./component/map";
 import Footer from ".//component/footer";
-//import { BrowserRouter } from "react-router-dom";
+
+//import Detail from "./component/tap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //import Home from "./component/ss";
 
@@ -20,15 +24,16 @@ function App() {
     <Fragment>
       <Header />
 
-      <Slider />
-
-      <Defaultsection />
-
-      <Defaultsection2 />
-
-      <News1 />
-
-      <Download />
+      <Routes>
+        <Route path="/" element={<Mainpage />} />
+        {/* 회사소개 bar */}
+        <Route path="/aa" element={<About />} />
+        <Route path="/bb" element={<History />} />
+        <Route path="/cc" element={<Org />} />
+        <Route path="/dd" element={<Partner />} />
+        <Route path="/ee" element={<Recruit />} />
+        <Route path="/ff" element={<Map />} />
+      </Routes>
 
       <Footer />
     </Fragment>

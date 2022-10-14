@@ -1,95 +1,102 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header class="main-header header-style-one">
-      <div class="header-lower">
-        <div class="main-box">
-          <div class="auto-container">
-            <div class="outer-container clearfix">
-              <div class="logo-box">
-                <div class="logo">
-                  <a href="main.html" title="The Finance">
+    <header className="main-header header-style-one">
+      <div className="header-lower">
+        <div className="main-box">
+          <div className="auto-container">
+            <div className="outer-container clearfix">
+              <div className="logo-box">
+                <div className="logo">
+                  <Link to="/" title="The Finance">
                     <img src="images/home/logo.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
 
-              <div class="nav-outer clearfix">
-                <nav class="main-menu">
-                  <div class="navbar-header">
+              <div className="nav-outer clearfix">
+                <nav className="main-menu">
+                  <div className="navbar-header">
                     <button
                       type="button"
-                      class="navbar-toggle"
+                      className="navbar-toggle"
                       data-toggle="collapse"
                       data-target=".navbar-collapse"
                     >
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span className="icon-bar"></span>
+                      <span className="icon-bar"></span>
+                      <span className="icon-bar"></span>
                     </button>
                   </div>
 
-                  <div class="navbar-collapse collapse clearfix">
-                    <ul class="navigation clearfix">
-                      <li class="dropdown">
+                  <div className="navbar-collapse collapse clearfix">
+                    <ul className="navigation clearfix">
+                      <li className="dropdown">
+                        <Link to="#">Ai&Big Data</Link>
+
+                        <ul>
+                          <li>
+                            <Link to="/">Ai 관제 서비스</Link>
+                          </li>
+                          <li>
+                            <Link to="default2">빅데이터 플랫폼</Link>
+                          </li>
+                          <li>
+                            <a href="infoComm/product.html">
+                              빅데이터 융합서비스
+                            </a>
+                          </li>
+                          <li>
+                            <a href="infoComm/product.html">T-map API</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="dropdown">
+                        <a href="#">스마트 서비스</a>
+                        <ul>
+                          <li>
+                            <a href="service/business.html">
+                              스마트 시티서비스
+                            </a>
+                          </li>
+                          <li>
+                            <a href="service/incetance.html">안전플랫폼</a>
+                          </li>
+                          <li>
+                            <a href="service/incetance.html">Sims</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="dropdown">
+                        <a href="#">스마트서비스</a>
+                        <ul>
+                          <li>
+                            <a href="infoComm/business.html">스마트팩토리</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="dropdown">
                         <a href="#">회사소개</a>
                         <ul>
                           <li>
-                            <a href="nexmore/about.html">넥스모어시스템즈</a>
-                          </li>
-
-                          {/* <li> */}
-                          {/* <a href="nexmore/ceo.html">CEO인사말</a> */}
-                          {/* </li> */}
-                          <li>
-                            <a href="nexmore/history.html">주요연혁</a>
+                            <Link to="aa">넥스모어시스템즈</Link>
                           </li>
                           <li>
-                            <a href="nexmore/org.html">조직도</a>
+                            <Link to="bb">주요연혁</Link>
                           </li>
                           <li>
-                            <a href="nexmore/partner.html">파트너</a>
+                            <Link to="cc">조직도</Link>
                           </li>
                           <li>
-                            <a href="nexmore/recruit.html">인재채용</a>
+                            <Link to="dd">파트너</Link>
                           </li>
                           <li>
-                            <a href="nexmore/map.html">오시는길</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">서비스사업본부</a>
-                        <ul>
-                          <li>
-                            <a href="service/business.html">사업소개</a>
+                            <Link to="ee">인재채용</Link>
                           </li>
                           <li>
-                            <a href="service/incetance.html">구축실적</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">정보통신사업본부</a>
-                        <ul>
-                          <li>
-                            <a href="infoComm/business.html">사업분야</a>
-                          </li>
-                          <li>
-                            <a href="infoComm/incetance.html">구축실적</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">PRODUCT</a>
-                        <ul>
-                          <li>
-                            <a href="service/product.html">서비스사업</a>
-                          </li>
-                          <li>
-                            <a href="infoComm/product.html">정보통신사업</a>
+                            <Link to="ff">오시는길</Link>
                           </li>
                         </ul>
                       </li>
@@ -97,8 +104,8 @@ function Header() {
                   </div>
                 </nav>
 
-                <div class="right-btn">
-                  <a href="nexmore/contact" class="btn-style-one">
+                <div className="right-btn">
+                  <a href="nexmore/contact" className="btn-style-one">
                     CONTACT US
                   </a>
                 </div>
@@ -110,84 +117,89 @@ function Header() {
         </div>
       </div>
 
-      <div class="sticky-header">
-        <div class="auto-container clearfix">
-          <div class="logo pull-left">
+      <div className="sticky-header">
+        <div className="auto-container clearfix">
+          <div className="logo pull-left">
             <a href="main.html" title="consulted">
-              <images src="images/home/logo2.png" alt="" />
+              <img src="images/home/logo2.png" alt="" />
             </a>
           </div>
 
-          <div class="right-col pull-right">
-            <nav class="main-menu">
-              <div class="navbar-header">
+          <div className="right-col pull-right">
+            <nav className="main-menu">
+              <div className="navbar-header">
                 <button
                   type="button"
-                  class="navbar-toggle"
+                  className="navbar-toggle"
                   data-toggle="collapse"
                   data-target=".navbar-collapse"
                 >
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
+                  <span className="icon-bar"></span>
+                  <span className="icon-bar"></span>
+                  <span className="icon-bar"></span>
                 </button>
               </div>
-              <div class="navbar-collapse collapse clearfix">
-                <ul class="navigation clearfix">
-                  <li class="dropdown">
+              <div className="navbar-collapse collapse clearfix">
+                <ul className="navigation clearfix">
+                  <li className="dropdown">
+                    <a href="#">Ai&Big Data</a>
+                    <ul>
+                      <li>
+                        <a href="service/product.html">Ai 관제 서비스</a>
+                      </li>
+                      <li>
+                        <a href="infoComm/product.html">빅데이터 플랫폼</a>
+                      </li>
+                      <li>
+                        <a href="infoComm/product.html">빅데이터 융합서비스</a>
+                      </li>
+                      <li>
+                        <a href="infoComm/product.html">T-map API</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="dropdown">
+                    <a href="#">스마트 서비스</a>
+                    <ul>
+                      <li>
+                        <a href="service/business.html">스마트 시티서비스</a>
+                      </li>
+                      <li>
+                        <a href="service/incetance.html">안전플랫폼</a>
+                      </li>
+                      <li>
+                        <a href="service/incetance.html">Sims</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="dropdown">
+                    <a href="#">스마트서비스</a>
+                    <ul>
+                      <li>
+                        <a href="infoComm/business.html">스마트팩토리</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="dropdown">
                     <a href="#">회사소개</a>
                     <ul>
                       <li>
-                        <a href="nexmore/about.html">넥스모어시스템즈</a>
-                      </li>
-                      <li>{/* <a href="nexmore/ceo.html">CEO인사말</a> */}</li>
-                      <li>
-                        <a href="nexmore/history.html">주요연혁</a>
+                        <a href="../nexmore/about.html">넥스모어시스템즈</a>
                       </li>
                       <li>
-                        <a href="nexmore/org.html">조직도</a>
+                        <a href="../nexmore/history.html">주요연혁</a>
                       </li>
                       <li>
-                        <a href="nexmore/partner.html">파트너</a>
+                        <a href="../nexmore/org.html">조직도</a>
                       </li>
                       <li>
-                        <a href="nexmore/recruit.html">인재채용</a>
+                        <a href="../nexmore/partner.html">파트너</a>
                       </li>
                       <li>
-                        <a href="nexmore/map.html">오시는길</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
-                    <a href="#">서비스사업본부</a>
-                    <ul>
-                      <li>
-                        <a href="service/business.html">사업분야</a>
+                        <a href="../nexmore/recruit.html">인재채용</a>
                       </li>
                       <li>
-                        <a href="service/incetance.html">구축실적</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
-                    <a href="#">정보통신사업본부</a>
-                    <ul>
-                      <li>
-                        <a href="infoComm/business.html">사업분야</a>
-                      </li>
-                      <li>
-                        <a href="infoComm/incetance.html">구축실적</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
-                    <a href="#">PRODUCT</a>
-                    <ul>
-                      <li>
-                        <a href="service/product.html">서비스사업</a>
-                      </li>
-                      <li>
-                        <a href="infoComm/product.html">정보통신사업</a>
+                        <a href="../nexmore/map.html">오시는길</a>
                       </li>
                     </ul>
                   </li>
