@@ -12,7 +12,7 @@ function Header() {
                 <div className="logo">
                   <Link to="/" title="The Finance">
                     <img src="images/home/logo.png" alt="" />
-                  </Link>
+                    </Link>
                 </div>
               </div>
 
@@ -38,7 +38,7 @@ function Header() {
 
                         <ul>
                           <li>
-                            <Link to="/">Ai 관제 서비스</Link>
+                          <a href="infoComm/business.html">AI관제 서비스</a>
                           </li>
                           <li>
                             <Link to="default2">빅데이터 플랫폼</Link>
@@ -57,9 +57,9 @@ function Header() {
                         <a href="#">스마트 서비스</a>
                         <ul>
                           <li>
-                            <a href="service/business.html">
+                            <Link to="smartcity">
                               스마트 시티서비스
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="service/incetance.html">안전플랫폼</a>
@@ -73,7 +73,7 @@ function Header() {
                         <a href="#">스마트서비스</a>
                         <ul>
                           <li>
-                            <a href="infoComm/business.html">스마트팩토리</a>
+                            <Link to="smartfactory">스마트팩토리</Link>
                           </li>
                         </ul>
                       </li>
@@ -81,22 +81,22 @@ function Header() {
                         <a href="#">회사소개</a>
                         <ul>
                           <li>
-                            <Link to="aa">넥스모어시스템즈</Link>
+                            <Link to="about">넥스모어시스템즈</Link>
                           </li>
                           <li>
-                            <Link to="bb">주요연혁</Link>
+                            <Link to="history">주요연혁</Link>
                           </li>
                           <li>
-                            <Link to="cc">조직도</Link>
+                            <Link to="org">조직도</Link>
                           </li>
                           <li>
-                            <Link to="dd">파트너</Link>
+                            <Link to="partner">파트너</Link>
                           </li>
                           <li>
-                            <Link to="ee">인재채용</Link>
+                            <Link to="recruit">인재채용</Link>
                           </li>
                           <li>
-                            <Link to="ff">오시는길</Link>
+                            <a href="../nexmore/map.html">오시는길</a>
                           </li>
                         </ul>
                       </li>

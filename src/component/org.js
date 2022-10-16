@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Org() {
   return (
@@ -13,8 +14,8 @@ function Org() {
           <h1>조직도</h1>
           <div className="bread-crumb-outer">
             <ul className="bread-crumb clearfix">
-              <li>
-                <a href="../nexmore/about.html">넥스모어</a>
+            <li>
+                <Link to="/">넥스모어</Link>
               </li>
               <li className="active">조직도</li>
             </ul>

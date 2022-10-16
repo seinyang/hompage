@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Recruit() {
   return (
@@ -13,8 +14,8 @@ function Recruit() {
           <h1>인재채용</h1>
           <div className="bread-crumb-outer">
             <ul className="bread-crumb clearfix">
-              <li>
-                <a href="../nexmore/about.html">넥스모어</a>
+            <li>
+                <Link to="/">넥스모어</Link>
               </li>
               <li className="active">인재채용</li>
             </ul>

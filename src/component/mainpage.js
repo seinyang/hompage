@@ -4,9 +4,12 @@ import Defaultsection from "./defaultsection";
 import Defaultsection2 from "./defaultsection2";
 import News1 from "./news1";
 import Download from "./download";
+import Smartfactory from "./smartfactory";
 import ServiceBox from "./servicebox";
 
+
 import { Flag } from "react";
+
 
 function Mainpage() {
   return (
@@ -251,8 +254,10 @@ function Mainpage() {
                 iconclass="icon-users2"
                 title="스마트 팩토리"
                 content="RFID시스템을 통한 공장자동화(FA)로 MES와 POP, e-Manufacturing, Mobile-Factory 등 생산현장시스템 솔루션 제공"
-                link="service/business.html"
+                link={<Smartfactory />}
+                
               />
+              
 
               <ServiceBox
                 iconclass="icon-bar-chart"

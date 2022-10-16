@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "./header";
 
 function About() {
@@ -15,7 +16,7 @@ function About() {
           <div className="bread-crumb-outer">
             <ul className="bread-crumb clearfix">
               <li>
-                <a href="../main.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="active">About Us</li>
             </ul>

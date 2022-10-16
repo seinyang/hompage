@@ -23,6 +23,32 @@ font-family: 'Hind', sans-serif;
 ====================================================================
 
  ***/
+ .left-box {
+  background: none;
+  float: left;
+  width: 50%;
+  
+  
+}
+.right-box {
+  background: none;
+  float: right;
+  width: 50%;
+
+}
+
+.blue-text {
+  color: skyblue;
+}
+
+.border {
+  line-height: normal;
+  border: 1px solid black;
+  width: 300px;
+  height: 30px;
+}
+
+
 * {
   margin: 0px;
   padding: 0px;

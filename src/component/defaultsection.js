@@ -1,7 +1,11 @@
 import React from "react";
 import ServiceBox from "./servicebox";
+import Smartfactory from "./smartfactory";
 
-function Defaultsection() {
+
+import {Link} from "react";
+
+function Defaultsection(prop) {
   return (
     <section class="default-section">
       <div class="auto-container">
@@ -46,11 +50,11 @@ function Defaultsection() {
               link="service/business.html"
             />
 
-            <ServiceBox
+            <Link ServiceBox
               iconclass="icon-users2"
               title="스마트 팩토리"
               content="RFID시스템을 통한 공장자동화(FA)로 MES와 POP, e-Manufacturing, Mobile-Factory 등 생산현장시스템 솔루션 제공"
-              link="service/business.html"
+              to={<Smartfactory />}
             />
 
             <ServiceBox
