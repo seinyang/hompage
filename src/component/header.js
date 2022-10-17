@@ -12,7 +12,7 @@ function Header() {
                 <div className="logo">
                   <Link to="/" title="The Finance">
                     <img src="images/home/logo.png" alt="" />
-                    </Link>
+                  </Link>
                 </div>
               </div>
 
@@ -38,7 +38,7 @@ function Header() {
 
                         <ul>
                           <li>
-                          <a href="infoComm/business.html">AI관제 서비스</a>
+                            <a href="infoComm/business.html">AI관제 서비스</a>
                           </li>
                           <li>
                             <Link to="default2">빅데이터 플랫폼</Link>
@@ -57,15 +57,13 @@ function Header() {
                         <a href="#">스마트 서비스</a>
                         <ul>
                           <li>
-                            <Link to="smartcity">
-                              스마트 시티서비스
-                            </Link>
+                            <Link to="smartcity">스마트 시티서비스</Link>
                           </li>
                           <li>
-                            <a href="service/incetance.html">안전플랫폼</a>
+                            <Link to="safe">안전플랫폼</Link>
                           </li>
                           <li>
-                            <a href="service/incetance.html">Sims</a>
+                            <Link to="sims">SIMS</Link>
                           </li>
                         </ul>
                       </li>

@@ -10,6 +10,8 @@ import Partner from "./component/partner";
 import Recruit from "./component/recruit";
 import Smartfactory from "./component/smartfactory";
 import Smartcity from "./component/smartcity";
+import Safe from "./component/safe";
+import Sims from "./component/sims";
 
 import Footer from ".//component/footer";
 
@@ -20,7 +22,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // div를 묶어서 return해주기때문에
 import { Fragment } from "react";
-
 
 function App() {
   return (
@@ -37,8 +38,10 @@ function App() {
         <Route path="/recruit" element={<Recruit />} />
         {/* 스마트 팩토리 bar */}
         <Route path="/smartfactory" element={<Smartfactory />} />
-       {/* 스마트 서비스 bar */}
-       <Route path="/smartcity" element={<Smartcity />} />
+        {/* 스마트 서비스 bar */}
+        <Route path="/smartcity" element={<Smartcity />} />
+        <Route path="/safe" element={<Safe />} />
+        <Route path="/sims" element={<Sims />} />
       </Routes>
 
       <Footer />

@@ -1,11 +1,12 @@
 import React from "react";
 import ServiceBox from "./servicebox";
+
 import Smartfactory from "./smartfactory";
 
+import { Link } from "react";
+import Sims from "./sims";
 
-import {Link} from "react";
-
-function Defaultsection(prop) {
+function Defaultsection() {
   return (
     <section class="default-section">
       <div class="auto-container">
@@ -47,21 +48,21 @@ function Defaultsection(prop) {
               iconclass="icon-monitor-1"
               title="빅데이터 플랫폼"
               content="도시 재해재난 발생 시 재난정보를 수집하고 분석, 예측하여 시민들에게 데이터 기반의 재해재난 대응 서비스 제공"
-              link="service/business.html"
+              link={<ServiceBox />}
             />
 
-            <Link ServiceBox
+            <ServiceBox
               iconclass="icon-users2"
               title="스마트 팩토리"
               content="RFID시스템을 통한 공장자동화(FA)로 MES와 POP, e-Manufacturing, Mobile-Factory 등 생산현장시스템 솔루션 제공"
-              to={<Smartfactory />}
+              link={<Smartfactory />}
             />
 
             <ServiceBox
               iconclass="icon-bar-chart"
               title="SIMS"
               content="운영 센터의 자원 정보를 자동 수집해 자산을 현행화하고 효율적으로 관리하기 위한 솔루션"
-              link="service/business.html"
+              link={<ServiceBox />}
             />
           </div>
         </div>

@@ -23,18 +23,18 @@ font-family: 'Hind', sans-serif;
 ====================================================================
 
  ***/
- .left-box {
+.left-box {
   background: none;
   float: left;
   width: 50%;
-  
-  
 }
+
 .right-box {
   background: none;
   float: right;
-  width: 50%;
+  vertical-align: top;
 
+  width: 50%;
 }
 
 .blue-text {
@@ -48,6 +48,18 @@ font-family: 'Hind', sans-serif;
   height: 30px;
 }
 
+.border-blue-box {
+  line-height: normal;
+  border: 1px solid black;
+  background-color: #56baf8;
+  font-style: white;
+  height: 30px;
+}
+
+.wrap {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 
 * {
   margin: 0px;
@@ -7173,7 +7185,6 @@ figure.effect-bubba:hover p {
 .services-style-one {
   position: relative;
   padding: 100px 0px 80px 0px;
-  background: #f7f7f7;
 }
 
 .services-style-one:before {
