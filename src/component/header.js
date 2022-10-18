@@ -38,18 +38,16 @@ function Header() {
 
                         <ul>
                           <li>
-                            <a href="infoComm/business.html">AI관제 서비스</a>
+                            <Link to="/ai">AI관제 서비스</Link>
                           </li>
                           <li>
-                            <Link to="default2">빅데이터 플랫폼</Link>
+                            <Link to="/bigdata">빅데이터 플랫폼</Link>
                           </li>
                           <li>
-                            <a href="infoComm/product.html">
-                              빅데이터 융합서비스
-                            </a>
+                            <Link to="/fusion">빅데이터 융합서비스</Link>
                           </li>
                           <li>
-                            <a href="infoComm/product.html">T-map API</a>
+                            <Link to="/tmap">T-map API</Link>
                           </li>
                         </ul>
                       </li>
@@ -68,7 +66,7 @@ function Header() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">스마트서비스</a>
+                        <a href="#">스마트 팩토리</a>
                         <ul>
                           <li>
                             <Link to="smartfactory">스마트팩토리</Link>
@@ -103,9 +101,9 @@ function Header() {
                 </nav>
 
                 <div className="right-btn">
-                  <a href="nexmore/contact" className="btn-style-one">
+                  <Link to="/footer" className="btn-style-one">
                     CONTACT US
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -118,9 +116,9 @@ function Header() {
       <div className="sticky-header">
         <div className="auto-container clearfix">
           <div className="logo pull-left">
-            <a href="main.html" title="consulted">
+            <Link to="/" title="consulted">
               <img src="images/home/logo2.png" alt="" />
-            </a>
+            </Link>
           </div>
 
           <div className="right-col pull-right">
@@ -143,16 +141,16 @@ function Header() {
                     <a href="#">Ai&Big Data</a>
                     <ul>
                       <li>
-                        <a href="service/product.html">Ai 관제 서비스</a>
+                        <Link to="/ai">AI관제 서비스</Link>
                       </li>
                       <li>
-                        <a href="infoComm/product.html">빅데이터 플랫폼</a>
+                        <Link to="/bigdata">빅데이터 플랫폼</Link>
                       </li>
                       <li>
-                        <a href="infoComm/product.html">빅데이터 융합서비스</a>
+                        <Link to="/fusion">빅데이터 융합서비스</Link>
                       </li>
                       <li>
-                        <a href="infoComm/product.html">T-map API</a>
+                        <Link to="/tmap">T-map API</Link>
                       </li>
                     </ul>
                   </li>
@@ -160,21 +158,21 @@ function Header() {
                     <a href="#">스마트 서비스</a>
                     <ul>
                       <li>
-                        <a href="service/business.html">스마트 시티서비스</a>
+                        <Link to="smartcity">스마트 시티서비스</Link>
                       </li>
                       <li>
-                        <a href="service/incetance.html">안전플랫폼</a>
+                        <Link to="safe">안전플랫폼</Link>
                       </li>
                       <li>
-                        <a href="service/incetance.html">Sims</a>
+                        <Link to="sims">SIMS</Link>
                       </li>
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="#">스마트서비스</a>
+                    <a href="#">스마트 팩토리</a>
                     <ul>
                       <li>
-                        <a href="infoComm/business.html">스마트팩토리</a>
+                        <Link to="smartfactory">스마트팩토리</Link>
                       </li>
                     </ul>
                   </li>
@@ -182,19 +180,19 @@ function Header() {
                     <a href="#">회사소개</a>
                     <ul>
                       <li>
-                        <a href="../nexmore/about.html">넥스모어시스템즈</a>
+                        <Link to="about">넥스모어시스템즈</Link>
                       </li>
                       <li>
-                        <a href="../nexmore/history.html">주요연혁</a>
+                        <Link to="history">주요연혁</Link>
                       </li>
                       <li>
-                        <a href="../nexmore/org.html">조직도</a>
+                        <Link to="org">조직도</Link>
                       </li>
                       <li>
-                        <a href="../nexmore/partner.html">파트너</a>
+                        <Link to="partner">파트너</Link>
                       </li>
                       <li>
-                        <a href="../nexmore/recruit.html">인재채용</a>
+                        <Link to="recruit">인재채용</Link>
                       </li>
                       <li>
                         <a href="../nexmore/map.html">오시는길</a>
@@ -202,7 +200,7 @@ function Header() {
                     </ul>
                   </li>
                   <li>
-                    <a href="nexmore/contact.html">CONTACT US</a>
+                    <Link to="/footer">CONTACT US</Link>
                   </li>
                 </ul>
               </div>
