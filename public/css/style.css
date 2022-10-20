@@ -162,7 +162,15 @@ p {
 .auto-container {
   position: static;
   max-width: 1200px;
-  padding: 0px 15px;
+  padding: 5px 15px;
+  height: auto;
+  margin: 0 auto;
+}
+.auto-container1 {
+  position: static;
+  max-width: 1200px;
+  padding: 5px 5px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -4471,7 +4479,7 @@ header.main-header.header-style-one.fixed-header.menu_fixed {
 ***/
 
 .feature-style-1 {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .feature-style-1 .testimonial p:first-child,
@@ -7260,6 +7268,16 @@ figure.effect-bubba:hover p {
   background: #24a0de;
 }
 
+.call-to-action1 {
+  position: absolute;
+  background-color: #a6a6a6;
+  position: relative;
+  height: 50;
+  padding: 35px 0px 5px;
+
+  z-index: 30;
+}
+
 .call-to-action .column {
   position: relative;
   margin-bottom: 30px;
@@ -7278,7 +7296,24 @@ figure.effect-bubba:hover p {
   border-color: #fff;
   color: #24a0de;
 }
+.text1 {
+  position: relative;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.footer {
+  display: inline-block;
+  line-height: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+}
 
+.container {
+  display: inline-flex;
+}
 /***
 
 ====================================================================

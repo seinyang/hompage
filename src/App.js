@@ -17,7 +17,7 @@ import Ai from "./component/ai";
 import Bigdata from "./component/bigdata";
 import Fusion from "./component/fusion";
 import Tmap from "./component/tmap";
-
+import Contactus from "./component/contactus";
 import Footer from ".//component/footer";
 
 //import Detail from "./component/tap";
@@ -52,6 +52,8 @@ function App() {
         <Route path="/bigdata" element={<Bigdata />} />
         <Route path="/fusion" element={<Fusion />} />
         <Route path="/tmap" element={<Tmap />} />
+        {/*contactus bttn*/}
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
 
       <Footer />

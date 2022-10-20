@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Contactus from "./contactus";
 
 function Header() {
   return (
@@ -101,7 +102,7 @@ function Header() {
                 </nav>
 
                 <div className="right-btn">
-                  <Link to="/footer" className="btn-style-one">
+                  <Link a className="btn-style-one" to="contactus">
                     CONTACT US
                   </Link>
                 </div>
@@ -200,7 +201,7 @@ function Header() {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/footer">CONTACT US</Link>
+                    <Link to="contactus">CONTACT US</Link>
                   </li>
                 </ul>
               </div>
