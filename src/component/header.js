@@ -47,9 +47,9 @@ function Header() {
                           <li>
                             <Link to="/fusion">빅데이터 융합서비스</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link to="/tmap">T-map API</Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </li>
                       <li className="dropdown">
@@ -100,12 +100,6 @@ function Header() {
                     </ul>
                   </div>
                 </nav>
-
-                <div className="right-btn">
-                  <Link a className="btn-style-one" to="contactus">
-                    CONTACT US
-                  </Link>
-                </div>
               </div>
             </div>
             {/* <div class="absolute"><a href = ""><fontcolor = "white"> ENG</a></div> */}
@@ -150,9 +144,9 @@ function Header() {
                       <li>
                         <Link to="/fusion">빅데이터 융합서비스</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/tmap">T-map API</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -199,9 +193,6 @@ function Header() {
                         <a href="../nexmore/map.html">오시는길</a>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <Link to="contactus">CONTACT US</Link>
                   </li>
                 </ul>
               </div>

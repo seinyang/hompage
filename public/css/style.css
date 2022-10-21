@@ -3486,7 +3486,7 @@ header.main-header.header-style-one.fixed-header.menu_fixed {
   color: #b3b3b3;
   background: #161717;
   font-size: 13px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .footer-bottom .footer-nav {
@@ -7308,7 +7308,7 @@ figure.effect-bubba:hover p {
   line-height: 5px;
   font-weight: bold;
   font-size: 17px;
-  color: black;
+  color: white;
 }
 
 .container {

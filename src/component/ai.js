@@ -45,11 +45,11 @@ function Ai() {
                       빅데이터 융합 서비스{"  "}
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link a data-toggle="pill" to="/tmap">
                       T-map API{"  "}
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="tab-content">
                   <div id="menu3" className="tab-pane fade in active">
@@ -68,7 +68,11 @@ function Ai() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          display: "inline-block",
+                          fontSize: "23px",
+                          lineHeight: "5px",
+                        }}
                       >
                         <h3>개요</h3>
                       </li>
@@ -77,7 +81,7 @@ function Ai() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           <strong>
@@ -96,13 +100,11 @@ function Ai() {
                             float: "left",
                             top: "50%",
                             textAlign: "center",
+                            textIndent: "55px",
                           }}
                         >
+                          &nbsp;&nbsp;
                           <img src="../images/nexmore/실nemo.png" />
-                          <img src="../images/nexmore/살표.jpg" />
-                          <img src="../images/nexmore/기반.png" />
-                          <img src="../images/nexmore/살표.jpg" />
-                          <img src="../images/nexmore/실시간.png" />
                         </li>
                       </p>
                     </li>
@@ -110,7 +112,11 @@ function Ai() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          display: "inline-block",
+                          fontSize: "22px",
+                          lineHeight: "5px",
+                        }}
                       >
                         <h3>특장점</h3>
                       </li>
@@ -120,7 +126,7 @@ function Ai() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           - 영상 내 사물 검출 대상 추가를 통해 적용 가능 분야
@@ -138,12 +144,13 @@ function Ai() {
 
                     <br />
 
-                    <li style={{ float: "left", display: "inline-block" }}>
+                    <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "22px",
                           textAlign: "left",
                         }}
                       >
@@ -158,40 +165,45 @@ function Ai() {
                       <br />
                     </li>
 
-                    <center>
-                      <div className="abc">
-                        <div>
-                          &emsp;&emsp;
+                    <div className="abc">
+                      <div>
+                        <li
+                          style={{
+                            float: "left",
+                            display: "inline-block",
+                          }}
+                        >
                           <img src="./images/nexmore/cctv.png" />
-                          <img src="./images/nexmore/화살표.jpg" />
-                          &nbsp;&nbsp;
-                          <figcaption>
-                            <li
-                              style={{
-                                float: "left",
-                                display: "inline-block",
-                                textAlign: "center",
-                              }}
-                            >
-                              <h3>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;인력
-                                영상(cctv)
-                              </h3>
-                            </li>
-                          </figcaption>
-                        </div>
-
-                        <div>
-                          <li style={{ float: "left" }}>
-                            <img src="./images/nexmore/cctv1.png" />
-
-                            <figcaption>
-                              <h3>쓰레기 투기 탐지 결과/투기 달지 경고 방송</h3>
-                            </figcaption>
+                          &emsp;
+                          <img src="./images/nexmore/회살표.png" />
+                          &emsp;
+                        </li>
+                        <figcaption>
+                          <li
+                            style={{
+                              float: "left",
+                              display: "inline-block",
+                              textAlign: "center",
+                            }}
+                          >
+                            <h3>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;인력
+                              영상(cctv)
+                            </h3>
                           </li>
-                        </div>
+                        </figcaption>
                       </div>
-                    </center>
+                      <li style={{ float: "left" }}>
+                        <img src="./images/nexmore/cctv1.png" />
+
+                        <figcaption>
+                          <h3>쓰레기 투기 탐지 결과/투기 달지 경고 방송</h3>
+                          <br />
+                        </figcaption>
+                      </li>
+                      &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                      &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                    </div>
                   </div>
                 </div>
               </div>

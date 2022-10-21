@@ -1,6 +1,5 @@
 //import logo from './logo.svg';
 //import './App.css';
-import Main from "./component/main";
 
 import Mainpage from "./component/mainpage";
 import Header from "./component/header";
@@ -16,8 +15,8 @@ import Sims from "./component/sims";
 import Ai from "./component/ai";
 import Bigdata from "./component/bigdata";
 import Fusion from "./component/fusion";
-import Tmap from "./component/tmap";
-import Contactus from "./component/contactus";
+// import Tmap from "./component/tmap";
+
 import Footer from ".//component/footer";
 
 //import Detail from "./component/tap";
@@ -51,9 +50,7 @@ function App() {
         <Route path="/ai" element={<Ai />} />
         <Route path="/bigdata" element={<Bigdata />} />
         <Route path="/fusion" element={<Fusion />} />
-        <Route path="/tmap" element={<Tmap />} />
-        {/*contactus bttn*/}
-        <Route path="/contactus" element={<Contactus />} />
+        {/* <Route path="/tmap" element={<Tmap />} /> */}
       </Routes>
 
       <Footer />

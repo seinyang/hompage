@@ -10,9 +10,6 @@ import { Link } from "react-router-dom";
 
 function Mainpage() {
   return (
-
- 
- 
     <div>
       {/* slider.js */}
       <section
@@ -20,80 +17,100 @@ function Mainpage() {
         data-start-height="700"
         data-slide-overlay="yes"
       >
- 
- <div id="categoryExampleSlider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#categoryExampleSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="#categoryExampleSlider" data-slide-to="1"></li>
-                   
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="images/main-slider/1.jpg"   />
-                        <div class="carousel-caption">
-                         <div
-                            class="tp-caption sft sfb tp-resizeme"
-                            data-x="left"
-                            data-hoffset="15"
-                            data-y="center"
-                            data-voffset="-90"
-                            data-speed="1500"
-                            data-start="0"
-                            data-easing="easeOutExpo"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.3"
-                            data-endspeed="1200"
-                            data-endeasing="Power4.easeIn"
-                          >
-                              <div class="text-left">
-                                <h2>IT의 가치 넥스모어가 만들어 갑니다.</h2>
-                              </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/main-slider/2.jpg"   />
-                        <div class="carousel-caption">
-                         <div
-                            class="tp-caption sft sfb tp-resizeme"
-                            data-x="left"
-                            data-hoffset="15"
-                            data-y="center"
-                            data-voffset="-90"
-                            data-speed="1500"
-                            data-start="0"
-                            data-easing="easeOutExpo"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.3"
-                            data-endspeed="1200"
-                            data-endeasing="Power4.easeIn"
-                          >
-                              <div class="text-left">
-                                <h2> 끊임없이 변화하는 넥스모어는 더 나은 세상을 만들어 갑니다.</h2>
-                              </div>
-                        </div>
-                      </div>
-                    </div>
-                   
-                    
+        <div
+          id="categoryExampleSlider"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#categoryExampleSlider"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#categoryExampleSlider" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/main-slider/1.jpg" />
+              <div class="carousel-caption">
+                <div
+                  class="tp-caption sft sfb tp-resizeme"
+                  data-x="left"
+                  data-hoffset="15"
+                  data-y="center"
+                  data-voffset="-90"
+                  data-speed="1500"
+                  data-start="0"
+                  data-easing="easeOutExpo"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.01"
+                  data-endelementdelay="0.3"
+                  data-endspeed="1200"
+                  data-endeasing="Power4.easeIn"
+                >
+                  <div class="text-left">
+                    <h2>IT의 가치 넥스모어가 만들어 갑니다.</h2>
+                  </div>
                 </div>
-                <a class="left carousel-control" href="#categoryExampleSlider" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#categoryExampleSlider" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+              </div>
             </div>
-
+            <div class="item">
+              <img src="images/main-slider/2.jpg" />
+              <div class="carousel-caption">
+                <div
+                  class="tp-caption sft sfb tp-resizeme"
+                  data-x="left"
+                  data-hoffset="15"
+                  data-y="center"
+                  data-voffset="-90"
+                  data-speed="1500"
+                  data-start="0"
+                  data-easing="easeOutExpo"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.01"
+                  data-endelementdelay="0.3"
+                  data-endspeed="1200"
+                  data-endeasing="Power4.easeIn"
+                >
+                  <div class="text-left">
+                    <h2>
+                      {" "}
+                      끊임없이 변화하는 넥스모어는 더 나은 세상을 만들어 갑니다.
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="left carousel-control"
+            href="#categoryExampleSlider"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="glyphicon glyphicon-chevron-left"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#categoryExampleSlider"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="glyphicon glyphicon-chevron-right"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </section>
-
-
 
       {/* defaultsection1*/}
       <section className="default-section">
@@ -166,8 +183,8 @@ function Mainpage() {
                   </div>
                   <h3>빅데이터 플랫폼</h3>
                   <div className="text">
-                    도시 재해재난 발생 시 재난정보를 수집하고 분석, 예측하여
-                    시민들에게 데이터 기반의 재해재난 대응 서비스 제공
+                    SKT 인구 통계 데이터를 활용한 맞춤형 데이터셋으로 공공분야
+                    및 빅데이터 플랫폼 구축 활용
                   </div>
                   <Link a className="read-more" to="/bigdata">
                     자세히보기 <span className="fa fa-angle-right"></span>
@@ -227,7 +244,8 @@ function Mainpage() {
             </div>
             <div className="column text-right col-md-4 col-sm-12 col-xs-12">
               <a
-                href="images/service/intro201804.pdf"
+                href="http://www.nexmore.co.kr/realtest/images/service/intro202104.pdf
+                "
                 className="theme-btn btn-style-two"
               >
                 <i className="fa fa-download"></i> 회사소개서 다운로드
@@ -239,9 +257,8 @@ function Mainpage() {
       <footer className="main-footer">
         <div className="footer-upper">
           <div className="inner">
-            <Link to="contactus">
-              <h2>CONTACT US</h2>
-            </Link>
+            <h2>CONTACT US</h2>
+
             <p>
               {" "}
               T. 02-556-3379 / F. 02-556-3359
