@@ -95,6 +95,7 @@ function Ai() {
                           </strong>
                         </li>
                         <br />
+
                         <li
                           style={{
                             float: "left",
@@ -108,7 +109,7 @@ function Ai() {
                         </li>
                       </p>
                     </li>
-                    <br />
+
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
@@ -118,6 +119,9 @@ function Ai() {
                           lineHeight: "5px",
                         }}
                       >
+                        <br />
+                        <br />
+                        <br />
                         <h3>특장점</h3>
                       </li>
                       <br />
@@ -141,9 +145,7 @@ function Ai() {
                         </li>
                       </p>
                     </li>
-
                     <br />
-
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
@@ -154,6 +156,7 @@ function Ai() {
                           textAlign: "left",
                         }}
                       >
+                        <br />
                         <h3>적용 사례</h3>
                       </li>
                       <li style={{ fontSize: "20px" }}>
@@ -164,7 +167,6 @@ function Ai() {
                       </li>
                       <br />
                     </li>
-
                     <div className="abc">
                       <div>
                         <li

@@ -14,7 +14,7 @@ function Partner() {
           <h1>파트너</h1>
           <div className="bread-crumb-outer">
             <ul className="bread-crumb clearfix">
-            <li>
+              <li>
                 <Link to="/">넥스모어</Link>
               </li>
               <li className="active">파트너</li>
@@ -159,6 +159,7 @@ function Partner() {
               <img src="../images/nexmore/client/han.jpg" />
             </div>
           </div>
+          <br />
         </div>
       </section>
     </div>

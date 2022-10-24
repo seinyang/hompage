@@ -56,6 +56,15 @@ font-family: 'Hind', sans-serif;
   height: 30px;
 }
 
+.border-blue-box1 {
+  line-height: normal;
+  border: 1px solid black;
+  background-color: #56baf8;
+  font-style: black;
+  height: 30px;
+  width: 610px;
+  margin: 0 auto;
+}
 .wrap {
   left: 50%;
   transform: translate(-50%, 0);

@@ -13,29 +13,29 @@ function Mainpage() {
     <div>
       {/* slider.js */}
       <section
-        class="main-slider"
+        className="main-slider"
         data-start-height="700"
         data-slide-overlay="yes"
       >
         <div
           id="categoryExampleSlider"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
-          <ol class="carousel-indicators">
+          <ol className="carousel-indicators">
             <li
               data-target="#categoryExampleSlider"
               data-slide-to="0"
-              class="active"
+              className="active"
             ></li>
             <li data-target="#categoryExampleSlider" data-slide-to="1"></li>
           </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
+          <div className="carousel-inner" role="listbox">
+            <div className="item active">
               <img src="images/main-slider/1.jpg" />
-              <div class="carousel-caption">
+              <div className="carousel-caption">
                 <div
-                  class="tp-caption sft sfb tp-resizeme"
+                  className="tp-caption sft sfb tp-resizeme"
                   data-x="left"
                   data-hoffset="15"
                   data-y="center"
@@ -50,17 +50,17 @@ function Mainpage() {
                   data-endspeed="1200"
                   data-endeasing="Power4.easeIn"
                 >
-                  <div class="text-left">
+                  <div className="text-center">
                     <h2>IT의 가치 넥스모어가 만들어 갑니다.</h2>
                   </div>
                 </div>
               </div>
             </div>
             <div class="item">
-              <img src="images/main-slider/2.jpg" />
+              <img src="images/main-slider/2.jpg " />
               <div class="carousel-caption">
                 <div
-                  class="tp-caption sft sfb tp-resizeme"
+                  className="tp-caption sft sfb tp-resizeme"
                   data-x="left"
                   data-hoffset="15"
                   data-y="center"
@@ -75,7 +75,7 @@ function Mainpage() {
                   data-endspeed="1200"
                   data-endeasing="Power4.easeIn"
                 >
-                  <div class="text-left">
+                  <div className="text-left">
                     <h2>
                       {" "}
                       끊임없이 변화하는 넥스모어는 더 나은 세상을 만들어 갑니다.
@@ -86,28 +86,28 @@ function Mainpage() {
             </div>
           </div>
           <a
-            class="left carousel-control"
+            className="left carousel-control"
             href="#categoryExampleSlider"
             role="button"
             data-slide="prev"
           >
             <span
-              class="glyphicon glyphicon-chevron-left"
+              className="glyphicon glyphicon-chevron-left"
               aria-hidden="true"
             ></span>
-            <span class="sr-only">Previous</span>
+            <span className="sr-only">Previous</span>
           </a>
           <a
-            class="right carousel-control"
+            className="right carousel-control"
             href="#categoryExampleSlider"
             role="button"
             data-slide="next"
           >
             <span
-              class="glyphicon glyphicon-chevron-right"
+              className="glyphicon glyphicon-chevron-right"
               aria-hidden="true"
             ></span>
-            <span class="sr-only">Next</span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
       </section>
@@ -136,7 +136,8 @@ function Mainpage() {
                   <h3>AI 관제 서비스</h3>
                   <div className="text">
                     AI기반 실시간 사람, 사물 인식으로 사람의 행동을 이해하는
-                    시각 지능 핵심 솔루션
+                    시각 지능 핵심 <br />
+                    솔루션
                   </div>
                   <Link a className="read-more" to="/ai">
                     자세히보기 <span className="fa fa-angle-right"></span>
@@ -184,7 +185,8 @@ function Mainpage() {
                   <h3>빅데이터 플랫폼</h3>
                   <div className="text">
                     SKT 인구 통계 데이터를 활용한 맞춤형 데이터셋으로 공공분야
-                    및 빅데이터 플랫폼 구축 활용
+                    및 빅데이터 <br />
+                    플랫폼 구축 활용
                   </div>
                   <Link a className="read-more" to="/bigdata">
                     자세히보기 <span className="fa fa-angle-right"></span>
@@ -217,7 +219,8 @@ function Mainpage() {
                   <h3>SIMS</h3>
                   <div className="text">
                     운영 센터의 자원 정보를 자동 수집해 자산을 현행화하고
-                    효율적으로 관리하기 위한 솔루션
+                    효율적으로 관리 <br />
+                    하기 위한 솔루션
                   </div>
                   <Link a className="read-more" to="/sims">
                     자세히보기 <span className="fa fa-angle-right"></span>

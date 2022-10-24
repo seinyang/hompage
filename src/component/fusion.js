@@ -66,7 +66,11 @@ function Fusion() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          display: "inline-block",
+                          fontSize: "23px",
+                          lineHeight: "5px",
+                        }}
                       >
                         <h3>개요</h3>
                       </li>
@@ -75,7 +79,7 @@ function Fusion() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           <strong>
@@ -85,21 +89,30 @@ function Fusion() {
                             극대화 하는 새로운 접근법
                           </strong>
                           <br />
-                          <br />
+
                           <div className="abc">
                             <center>
+                              &emsp; &emsp;
                               <img src="../images/nexmore/더하기.png" />
                             </center>
                           </div>
                         </li>
                       </p>
                     </li>
-                    <br />
+
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          display: "inline-block",
+                          fontSize: "23px",
+                          lineHeight: "5px",
+                        }}
                       >
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <h3>특장점</h3>
                       </li>
                       <br />
@@ -108,7 +121,7 @@ function Fusion() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           - Big Data 기반에 리서치 데이터 융합 분석 후 그 결과를
@@ -133,9 +146,11 @@ function Fusion() {
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
+                        <br /> <br /> <br /> <br />
                         <h3>데이터 범위</h3>
                       </li>
                       <li style={{ fontSize: "20px" }}>
@@ -144,14 +159,14 @@ function Fusion() {
                           경제 분야로 확대 중
                         </p>
                       </li>
-                      <br />
                     </li>
 
                     <div className="abc">
                       <div>
                         <img src="./images/nexmore/표1.jpg" />
-                        &emsp;
+                        &emsp; &emsp; &emsp; &nbsp;
                         <img src="./images/nexmore/표2.jpg" />
+                        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
                       </div>
                     </div>
 
@@ -161,9 +176,16 @@ function Fusion() {
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
                         <h3>데이터 가공 예시</h3>
                       </li>
                       <li style={{ fontSize: "20px" }}>
@@ -179,20 +201,26 @@ function Fusion() {
                     <center>
                       <div className="abc">
                         <div>
+                          {" "}
+                          &emsp;
                           <img src="./images/nexmore/지역관광.jpg" />
-
+                          &emsp; &emsp; &emsp;&nbsp;&nbsp;&nbsp;
                           <figcaption>
                             <h3>
                               지역 관광 기초 환경 보고서 - 17개 시도, 229시군구
-                              단위
+                              단위&nbsp;&nbsp; &emsp;&nbsp;
                             </h3>
                           </figcaption>
                         </div>
                         <div>
+                          &emsp;
                           <img src="./images/nexmore/web.jpg" />
-
+                          &emsp; &emsp; &emsp; &emsp;&emsp; &nbsp;&nbsp;
                           <figcaption>
-                            <h3>Web 기반 통계 패키지 </h3>
+                            <h3>
+                              Web 기반 통계 패키지 &nbsp;&nbsp; &emsp;
+                              &emsp;&emsp;&nbsp;&nbsp;
+                            </h3>
                           </figcaption>
                         </div>
                       </div>

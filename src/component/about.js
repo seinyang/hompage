@@ -98,10 +98,12 @@ function About() {
                 <img src="../images/nexmore/about-con1.png" />
               </li>
               {/* <!-- 주요인증 --> */}
-              <li>
-                <img src="../images/nexmore/주요인증.jpg" />
-              </li>
-
+              <div className="border-blue-box1">
+                <h4 style={{ color: "black" }} className="text-center">
+                  <strong>주요 인증</strong>
+                </h4>
+              </div>
+              <br />
               <div className="abc">
                 <div>
                   <img src="../images/nexmore/bencher.jpg" />
@@ -156,6 +158,7 @@ function About() {
                   </figcaption>
                 </div>
               </div>
+              <br />
             </ul>
           </div>
         </div>

@@ -60,7 +60,11 @@ function Safe() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          fontSize: "23px",
+                          display: "inline-block",
+                          lineHeight: "5px",
+                        }}
                       >
                         <h3>개요</h3>
                       </li>
@@ -69,15 +73,15 @@ function Safe() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           <strong>
-                            - 도시 재해재난 발생 시 재난정보를 수집하고
-                            분석〮예측하여 시민들에게 데이터 기반의 재해재난
-                            대응 서비스 제공 <br />- 빅데이터 기반의 데이터
-                            공유형 안전 플랫폼을 개발하여 데이터를 수집,
-                            분석하고, 전용 모바일 앱을 통해 상황 전파
+                            - 도시 재해재난 발생 시 재난정보를 수집하고 분석 ·
+                            예측하여 시민들에게 데이터 기반의 재해재난 대응
+                            서비스 제공 <br />- 빅데이터 기반의 데이터 공유형
+                            안전 플랫폼을 개발하여 데이터를 수집, 분석하고, 전용
+                            모바일 앱을 통해 상황 전파
                           </strong>
                         </li>
                       </p>
@@ -85,8 +89,13 @@ function Safe() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          fontSize: "23px",
+                          display: "inline-block",
+                          lineHeight: "5px",
+                        }}
                       >
+                        <br />
                         <h3>특장점</h3>
                       </li>
                       <p>
@@ -94,7 +103,7 @@ function Safe() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           - 안전분야 대상별 (경사지 붕괴, 폭염, 화재, 홍수)
@@ -118,67 +127,72 @@ function Safe() {
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
+                        <br />
+                        <br />
                         <h3>서비스 구성</h3>
                       </li>
+
                       <div>
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                        &nbsp; &nbsp;
+                        &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;
+                        &emsp; &nbsp;&emsp;&emsp;
                         <img src="./images/nexmore/서비스.png" />
                       </div>
                     </li>
-                    <br />
-                    <br />
                     <li style={{ float: "left", display: "inline-block" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
+                        {" "}
+                        <br /> <br /> <br /> <br /> <br />
                         <h3>개발 s/w 화면</h3>
                       </li>
-                    </li>
-                    <br />
-                    <br />
-                    <center>
-                      <div className="abc">
-                        <div>
-                          <img src="./images/nexmore/보드.jpg" />
 
-                          <figcaption>
-                            <h3>안전 플랫폼 대시 보드 화면</h3>
-                          </figcaption>
-                        </div>
-                        <div>
-                          <img src="./images/nexmore/gps.jpg" />
-
-                          <figcaption>
-                            <h3>안전 플랫폼 GIS 기반 예〮경보 현황</h3>
-                          </figcaption>
-                        </div>
+                      <center>
                         <div className="abc">
                           <div>
-                            <img src="./images/nexmore/시각.jpg" />
+                            <img src="./images/nexmore/보드.jpg" />
 
                             <figcaption>
-                              <h3>시각화 데이터</h3>
+                              <h3>안전 플랫폼 대시 보드 화면</h3>
                             </figcaption>
                           </div>
                           <div>
-                            <img src="./images/nexmore/경로.jpg" />
+                            <img src="./images/nexmore/gps.jpg" />
 
                             <figcaption>
-                              <h3>구호 부서 출동 최적 경로 선정</h3>
+                              <h3>안전 플랫폼 GIS 기반 예·경보 현황</h3>
                             </figcaption>
                           </div>
+                          <div className="abc">
+                            <div>
+                              <img src="./images/nexmore/시각.jpg" />
+
+                              <figcaption>
+                                <h3>시각화 데이터</h3>
+                              </figcaption>
+                            </div>
+                            <div className="abc">
+                              <div>
+                                <img src="./images/nexmore/경로.jpg" />
+                                <figcaption>
+                                  <h3>구호 부서 출동 최적 경로 선정</h3>
+                                </figcaption>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </center>
+                      </center>
+                    </li>
                   </div>
                 </div>
               </div>

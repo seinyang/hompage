@@ -60,7 +60,11 @@ function Sims() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          fontSize: "23px",
+                          display: "inline-block",
+                          lineHeight: "5px",
+                        }}
                       >
                         <h3>개요</h3>
                       </li>
@@ -69,19 +73,19 @@ function Sims() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           <strong>
                             - 서비스운영 센터의 H/W, S/W 정보를 IP기반 연결로
                             자동 수집해 자산 현행화를 유지하고, 수집된 데이터{" "}
                             <br />
-                            필터링 및 분석으로 운용 자산을 효율적으로 관리하기
-                            위한 솔루션
+                            &nbsp;&nbsp;필터링 및 분석으로 운용 자산을
+                            효율적으로 관리하기 위한 솔루션
                             <br />- 수집된 데이터를 기반으로 빅데이터, AI 분석의
                             기초 자료로 활용될 수 있으며 고장, 장애 예측과 같은{" "}
                             실질적인 <br />
-                            자산 관리 서비스 제공 가능
+                            &nbsp;&nbsp; 자산 관리 서비스 제공 가능
                           </strong>
                         </li>
                       </p>
@@ -89,9 +93,13 @@ function Sims() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          fontSize: "23px",
+                          display: "inline-block",
+                          lineHeight: "5px",
+                        }}
                       >
-                        <h3>특장점</h3>
+                        <br /> <br /> <h3>특장점</h3>
                       </li>
                       <br />
                       <p>
@@ -99,7 +107,7 @@ function Sims() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           - Linux/Unix 기반 서버에 SSH Key 방식으로 접속
@@ -133,15 +141,18 @@ function Sims() {
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
                         <h3>제공 기능</h3>
                       </li>
                       <div>
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                        &nbsp; &nbsp;
-                        <img src="./images/nexmore/제공.png" />
+                        <center>
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                          &nbsp; &nbsp; &nbsp;&emsp;&emsp;
+                          <img src="./images/nexmore/제공.png" />
+                        </center>
                       </div>
                     </li>
 
@@ -151,13 +162,23 @@ function Sims() {
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <h3>적용 사례</h3>
                       </li>
                       <li style={{ fontSize: "20px" }}>
-                        <p>- SKT 서버 6천대 이상 관리에 적용</p>
+                        <p>
+                          -SKT 서버 6천대 이상 관리에 적용
+                          &nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;
+                        </p>
                       </li>
                     </li>
 
@@ -167,16 +188,26 @@ function Sims() {
                       <div className="abc">
                         <div>
                           <img src="./images/nexmore/현황.jpg" />
-
+                          &nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;
                           <figcaption>
-                            <h3>스크립트 수행 작업 등록 및 수집 현황</h3>
+                            <h3>
+                              스크립트 수행 작업 등록 및 수집
+                              현황&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;
+                            </h3>
                           </figcaption>
                         </div>
                         <div>
                           <img src="./images/nexmore/조회.jpg" />
-
+                          &nbsp;&emsp;&emsp; &nbsp;&emsp;&emsp;
+                          &nbsp;&emsp;&emsp; &nbsp;&emsp;&emsp;
+                          &nbsp;&emsp;&emsp; &nbsp;&emsp;&emsp;
                           <figcaption>
-                            <h3>스크립트 수행 결과 조회</h3>
+                            <h3>
+                              스크립트 수행 결과
+                              조회&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;
+                              &nbsp;&emsp;&emsp;
+                              &nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;
+                            </h3>
                           </figcaption>
                         </div>
                       </div>

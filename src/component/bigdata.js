@@ -66,7 +66,11 @@ function Bigdata() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          display: "inline-block",
+                          lineHeight: "5px",
+                          fontSize: "23px",
+                        }}
                       >
                         <h3>개요</h3>
                       </li>
@@ -75,7 +79,7 @@ function Bigdata() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           <strong>
@@ -95,7 +99,11 @@ function Bigdata() {
                     <li style={{ float: "left" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
-                        style={{ display: "inline-block", lineHeight: "5px" }}
+                        style={{
+                          display: "inline-block",
+                          lineHeight: "5px",
+                          fontSize: "23px",
+                        }}
                       >
                         <h3>특장점</h3>
                       </li>
@@ -105,7 +113,7 @@ function Bigdata() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
-                            fontSize: "23px",
+                            fontSize: "20px",
                           }}
                         >
                           - 빅데이터 플랫폼인 Geovision으로 공공 및 민간 니즈에
@@ -113,23 +121,32 @@ function Bigdata() {
                           <br />
                           - 국내 유일 전파영역관리시스템을 통한 공간해상도 50m X
                           50m Smart Grid 제공으로 Zone Base <br />
-                          인구 데이터 추출 용이
+                          &nbsp;&nbsp;인구 데이터 추출 용이
                           <br />- 네트워크 방식 위치 기반 솔루션 ‘pCELL’을 통해
                           타 통신사 대비 5배 이상 정밀한 인구 데이터 제공
                           <div className="abc">
                             <center>
-                              <img src="../images/nexmore/영역.jpg" />
-                              <figcaption>
-                                <h4>
-                                  전파영역관리시스템(전파지향성,전파영역관리)&emsp;
-                                </h4>
-                              </figcaption>
+                              <li style={{ float: "left" }}>
+                                &emsp;&emsp;&emsp;
+                                <img src="../images/nexmore/영역.jpg" />
+                                <figcaption>
+                                  <h4>
+                                    <strong>
+                                      &emsp;&emsp;&emsp;
+                                      전파영역관리시스템(전파지향성,전파영역관리)
+                                    </strong>
+                                  </h4>
+                                </figcaption>
+                              </li>
+                              &emsp;&emsp;&emsp;
                             </center>
 
                             <li style={{ float: "left" }}>
                               <img src="../images/nexmore/분석.jpg" />
                               <figcaption>
-                                <h4>SKT Data 경복궁 분석 영역</h4>
+                                <h4>
+                                  <strong>SKT Data 경복궁 분석 영역</strong>
+                                </h4>
                               </figcaption>
                             </li>
                             <li style={{ float: "left" }}>
@@ -138,21 +155,24 @@ function Bigdata() {
                             <li style={{ float: "left" }}>
                               <img src="../images/nexmore/타사.jpg" />
                               <figcaption>
-                                <h4>타사 경복궁 분석 영역</h4>
+                                <h4>
+                                  <strong>타사 경복궁 분석 영역</strong>
+                                </h4>
                               </figcaption>
                             </li>
                           </div>
                         </li>
                       </p>
+                      <br />
                     </li>
 
-                    <br />
                     <li style={{ float: "left", display: "inline-block" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
@@ -164,13 +184,15 @@ function Bigdata() {
                           가능하며 WEB 기반의 시각화 서비스 제공
                         </p>
                       </li>
-                      <br />
                     </li>
 
-                    <div className="abc">
-                      <div>
+                    <div>
+                      <li style={{ float: "left", display: "inline-block" }}>
+                        &nbsp; &emsp; &emsp; &emsp; &emsp;&nbsp; &emsp; &emsp;
                         <img src="./images/nexmore/표.png" />
-                      </div>
+                        <br />
+                        <br />
+                      </li>
                     </div>
 
                     <li style={{ float: "left", display: "inline-block" }}>
@@ -179,6 +201,7 @@ function Bigdata() {
                         style={{
                           display: "inline-block",
                           lineHeight: "5px",
+                          fontSize: "23px",
                           textAlign: "left",
                         }}
                       >
@@ -196,32 +219,49 @@ function Bigdata() {
                     <center>
                       <div className="abc">
                         <div>
-                          <img src="./images/nexmore/파주.jpg" />
+                          <li
+                            style={{ float: "left", display: "inline-block" }}
+                          >
+                            <img src="./images/nexmore/파주.jpg" />
 
-                          <figcaption>
-                            <h3>파주시 관광객 이동 동선 분석</h3>
-                          </figcaption>
+                            <figcaption>
+                              <h3>파주시 관광객 이동 동선 분석</h3>
+                            </figcaption>
+                          </li>
+                          &emsp;&emsp;&emsp;&emsp;&emsp;
                         </div>
                         <div>
-                          <img src="./images/nexmore/대중교통.jpg" />
-
-                          <figcaption>
-                            <h3>대중교통 노선 분석 </h3>
-                          </figcaption>
+                          <li
+                            style={{ float: "left", display: "inline-block" }}
+                          >
+                            <img src="./images/nexmore/대중교통.jpg" />
+                            <figcaption>
+                              <h3>대중교통 노선 분석 </h3>
+                            </figcaption>
+                          </li>
+                          &emsp;&emsp;&emsp;&emsp;
                         </div>
                         <div>
-                          <img src="./images/nexmore/상권분석.jpg" />
-
-                          <figcaption>
-                            <h3>Geovision 상권분석 </h3>
-                          </figcaption>
+                          <li
+                            style={{ float: "left", display: "inline-block" }}
+                          >
+                            <img src="./images/nexmore/상권분석.jpg" />
+                            <figcaption>
+                              <h3>Geovision 상권분석 </h3>
+                            </figcaption>
+                          </li>
+                          &emsp;&emsp;&emsp;&emsp;
                         </div>
                         <div>
-                          <img src="./images/nexmore/광고.jpg" />
-
-                          <figcaption>
-                            <h3>광고 효과 분석 </h3>
-                          </figcaption>
+                          <li
+                            style={{ float: "left", display: "inline-block" }}
+                          >
+                            <img src="./images/nexmore/광고.jpg" />
+                            <figcaption>
+                              <h3>광고 효과 분석 </h3>
+                            </figcaption>
+                          </li>
+                          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                         </div>
                       </div>
                     </center>

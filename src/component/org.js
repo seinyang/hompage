@@ -14,7 +14,7 @@ function Org() {
           <h1>조직도</h1>
           <div className="bread-crumb-outer">
             <ul className="bread-crumb clearfix">
-            <li>
+              <li>
                 <Link to="/">넥스모어</Link>
               </li>
               <li className="active">조직도</li>
@@ -31,6 +31,7 @@ function Org() {
           </div>
         </div>
       </section>
+      <br />
     </div>
   );
 }
