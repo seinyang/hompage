@@ -50,8 +50,13 @@ function Mainpage() {
                   data-endspeed="1200"
                   data-endeasing="Power4.easeIn"
                 >
-                  <div className="text-center">
-                    <h2>IT의 가치 넥스모어가 만들어 갑니다.</h2>
+                  <div className="image-text">
+                    <h2>
+                      {" "}
+                      IT의 가치
+                      <br />
+                      &nbsp;&nbsp;&nbsp;넥스모어가 만들어 갑니다
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -75,10 +80,12 @@ function Mainpage() {
                   data-endspeed="1200"
                   data-endeasing="Power4.easeIn"
                 >
-                  <div className="text-left">
+                  <div className="image-text">
                     <h2>
                       {" "}
-                      끊임없이 변화하는 넥스모어는 더 나은 세상을 만들어 갑니다.
+                      끊임없이 변화하는 넥스모어는
+                      <br />
+                      &nbsp;&nbsp;더 나은 세상을 만들어 갑니다.
                     </h2>
                   </div>
                 </div>

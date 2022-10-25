@@ -414,6 +414,13 @@ div.no-bg {
 .text-left {
   text-align: left;
 }
+.image-text {
+  position: absolute;
+  top: -600px;
+  left: -120px;
+  color: white;
+  line-height: 500px;
+}
 
 .text-right {
   text-align: right;

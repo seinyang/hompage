@@ -17,7 +17,7 @@ function Sims() {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li className="active">안전 플랫폼</li>
+              <li className="active">SIMS</li>
             </ul>
           </div>
         </div>
