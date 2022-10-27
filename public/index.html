@@ -13,7 +13,15 @@
       name="description"
       content="Web site created using create-react-app"
     />
-
+    <!-- kakao 발급받은키 입력-->
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c06badffb34344aced21fc4860c1b78d&libraries=LIBRARY"
+    ></script>
+    <script
+      charset="UTF-8"
+      src="http://t1.daumcdn.net/mapjsapi/js/main/4.4.8/kakao.js"
+    ></script>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -22,10 +30,12 @@
 
     <!--%public_URL%로 css파일 가져오기-->
     <!-- <link href="%PUBLIC_URL%/css/bootstrap.css" rel="stylesheet" /> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
 
     <link href="%PUBLIC_URL%/css/revolution-slider.css" rel="stylesheet" />
     <link href="%PUBLIC_URL%/css/slider-setting.css" rel="stylesheet" />
@@ -73,20 +83,19 @@
         color: #fff;
         bottom: 52px;
         left: 18px;
-        font-size:20px;
-    }
+        font-size: 20px;
+      }
     </style>
 
     <title>::NEXMORE SYSTEMS::</title>
   </head>
   <body>
     <script>
-      $('.carousel').carousel({
-        interval: 2000 //기본 5초
-      })
+      $(".carousel").carousel({
+        interval: 2000, //기본 5초
+      });
     </script>
-  
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.

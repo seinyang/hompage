@@ -15,7 +15,7 @@ import Sims from "./component/sims";
 import Ai from "./component/ai";
 import Bigdata from "./component/bigdata";
 import Fusion from "./component/fusion";
-// import Tmap from "./component/tmap";
+import Map from "./component/map";
 
 import Footer from ".//component/footer";
 
@@ -40,6 +40,8 @@ function App() {
         <Route path="/org" element={<Org />} />
         <Route path="/partner" element={<Partner />} />
         <Route path="/recruit" element={<Recruit />} />
+        <Route path="/map" element={<Map />} />
+
         {/* 스마트 팩토리 bar */}
         <Route path="/smartfactory" element={<Smartfactory />} />
         {/* 스마트 서비스 bar */}
@@ -50,7 +52,6 @@ function App() {
         <Route path="/ai" element={<Ai />} />
         <Route path="/bigdata" element={<Bigdata />} />
         <Route path="/fusion" element={<Fusion />} />
-        {/* <Route path="/tmap" element={<Tmap />} /> */}
       </Routes>
 
       <Footer />

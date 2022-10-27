@@ -93,7 +93,7 @@ function Header() {
                             <Link to="recruit">인재채용</Link>
                           </li>
                           <li>
-                            <a href="../nexmore/map.html">오시는길</a>
+                            <Link to="map">오시는길</Link>
                           </li>
                         </ul>
                       </li>
@@ -190,7 +190,7 @@ function Header() {
                         <Link to="recruit">인재채용</Link>
                       </li>
                       <li>
-                        <a href="../nexmore/map.html">오시는길</a>
+                        <Link to="map">오시는길</Link>
                       </li>
                     </ul>
                   </li>
