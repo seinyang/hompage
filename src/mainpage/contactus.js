@@ -7,23 +7,26 @@ function Contactus() {
       <section className="call-to-action">
         <div className="auto-container">
           <div className="row clearfix">
-            <div className="column col-md-8 col-sm-12 col-xs-12"></div>
+            <div className="column col-md-8 col-sm-12 col-xs-12">
+              <div className="text">Challenge To Global Business NEXMORE</div>
+            </div>
             <div className="column text-right col-md-4 col-sm-12 col-xs-12">
               <a
-                href="images/service/intro201804.pdf"
+                href="http://www.nexmore.co.kr/realtest/images/service/intro202104.pdf
+                "
                 className="theme-btn btn-style-two"
-              ></a>
+              >
+                <i className="fa fa-download"></i> 회사소개서 다운로드
+              </a>
             </div>
           </div>
         </div>
       </section>
-
       <footer className="main-footer">
         <div className="footer-upper">
           <div className="inner">
-            <Link to="contactus">
-              <h2>CONTACT US</h2>
-            </Link>
+            <h2>CONTACT US</h2>
+
             <p>
               {" "}
               T. 02-556-3379 / F. 02-556-3359
@@ -33,9 +36,9 @@ function Contactus() {
             </p>
             <center>
               <div className="btn_wrap">
-                <a className="blue" href="nexmore/map.html">
+                <Link a className="blue" to="map">
                   오시는 길
-                </a>{" "}
+                </Link>{" "}
               </div>
             </center>
           </div>

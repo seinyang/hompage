@@ -32,7 +32,7 @@ function Map() {
               <div className="row">
                 <h3>LOCATION MAP</h3>
 
-                {/* // 여기로 maps.js 호출 */}
+                {/* // 여기로 maps.js 호출,지도가 보여져야하는부분 */}
                 <section>
                   <Maps />
                 </section>

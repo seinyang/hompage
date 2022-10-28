@@ -1,10 +1,4 @@
 import React from "react";
-import Slider from "./slider";
-import Defaultsection1 from "./defaultsection1";
-import Defaultsection2 from "./defaultsection2";
-import News1 from "./news1";
-import Download from "./download";
-import Smartfactory from "./smartfactory";
 
 import { Link } from "react-router-dom";
 
@@ -55,7 +49,7 @@ function Mainpage() {
                       {" "}
                       IT의 가치
                       <br />
-                      &nbsp;&nbsp;&nbsp;넥스모어가 만들어 갑니다
+                      &nbsp;&nbsp;&nbsp;넥스모어가 만들어 갑니다.
                     </h2>
                   </div>
                 </div>
@@ -239,12 +233,6 @@ function Mainpage() {
         </div>
       </section>
 
-      {/* defaultsection2 */}
-
-      {/* news1.js */}
-
-      {/* download */}
-
       {/* contact us */}
       <section className="call-to-action">
         <div className="auto-container">
@@ -278,9 +266,9 @@ function Mainpage() {
             </p>
             <center>
               <div className="btn_wrap">
-                <a className="blue" href="nexmore/map.html">
+                <Link a className="blue" to="map">
                   오시는 길
-                </a>{" "}
+                </Link>{" "}
               </div>
             </center>
           </div>

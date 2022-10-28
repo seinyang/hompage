@@ -1,6 +1,6 @@
+// 상단바안에 부분 Link to 사용해서 route연결
 import React from "react";
 import { Link } from "react-router-dom";
-import Contactus from "./contactus";
 
 function Header() {
   return (

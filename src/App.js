@@ -1,21 +1,22 @@
 //import logo from './logo.svg';
 //import './App.css';
 
-import Mainpage from "./component/mainpage";
 import Header from "./component/header";
-import About from "./component/about";
-import History from "./component/history";
-import Org from "./component/org";
-import Partner from "./component/partner";
-import Recruit from "./component/recruit";
-import Smartfactory from "./component/smartfactory";
-import Smartcity from "./component/smartcity";
-import Safe from "./component/safe";
-import Sims from "./component/sims";
-import Ai from "./component/ai";
-import Bigdata from "./component/bigdata";
-import Fusion from "./component/fusion";
-import Map from "./component/map";
+
+import Mainpage from "./mainpage/mainpage";
+import About from "./branch/about";
+import History from "./branch/history";
+import Org from "./branch/org";
+import Partner from "./branch/partner";
+import Recruit from "./branch/recruit";
+import Smartfactory from "./smartfactory/smartfactory";
+import Smartcity from "./smartservice/smartcity";
+import Safe from "./smartservice/safe";
+import Sims from "./smartservice/sims";
+import Ai from "./ai&big/ai";
+import Bigdata from "./ai&big/bigdata";
+import Fusion from "./ai&big/fusion";
+import Map from "./branch/map";
 
 import Footer from ".//component/footer";
 
@@ -30,10 +31,25 @@ import { Fragment } from "react";
 function App() {
   return (
     <Fragment>
+      {/* 항상 보여야하는 상단바 */}
       <Header />
 
       <Routes>
+        {/* 홈페이지 첫화면에 보여야하는 slider,defaultsection,contactus 모여있음 */}
         <Route path="/" element={<Mainpage />} />
+        {/*AI&BIG DATA bar*/}
+        <Route path="/ai" element={<Ai />} />
+        <Route path="/bigdata" element={<Bigdata />} />
+        <Route path="/fusion" element={<Fusion />} />
+
+        {/* 스마트 서비스 bar */}
+        <Route path="/smartcity" element={<Smartcity />} />
+        <Route path="/safe" element={<Safe />} />
+        <Route path="/sims" element={<Sims />} />
+
+        {/* 스마트 팩토리 bar */}
+        <Route path="/smartfactory" element={<Smartfactory />} />
+
         {/* 회사소개 bar */}
         <Route path="/about" element={<About />} />
         <Route path="/history" element={<History />} />
@@ -41,19 +57,9 @@ function App() {
         <Route path="/partner" element={<Partner />} />
         <Route path="/recruit" element={<Recruit />} />
         <Route path="/map" element={<Map />} />
-
-        {/* 스마트 팩토리 bar */}
-        <Route path="/smartfactory" element={<Smartfactory />} />
-        {/* 스마트 서비스 bar */}
-        <Route path="/smartcity" element={<Smartcity />} />
-        <Route path="/safe" element={<Safe />} />
-        <Route path="/sims" element={<Sims />} />
-        {/*AI&BIG DATA bar*/}
-        <Route path="/ai" element={<Ai />} />
-        <Route path="/bigdata" element={<Bigdata />} />
-        <Route path="/fusion" element={<Fusion />} />
       </Routes>
 
+      {/* 항상 보여야하는 footer */}
       <Footer />
     </Fragment>
   );

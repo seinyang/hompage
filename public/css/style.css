@@ -416,10 +416,11 @@ div.no-bg {
 }
 .image-text {
   position: absolute;
-  top: -600px;
+  top: -750px;
   left: -120px;
   color: white;
   line-height: 500px;
+  font-size: 150%;
 }
 
 .text-right {
