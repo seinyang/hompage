@@ -59,7 +59,7 @@ function App() {
         <Route path="/map" element={<Map />} />
       </Routes>
 
-      {/* 항상 보여야하는 footerd dd */}
+      {/* 항상 보여야하는 footerd */}
       <Footer />
     </Fragment>
   );
