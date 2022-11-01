@@ -416,7 +416,7 @@ div.no-bg {
 }
 .image-text {
   position: absolute;
-  top: -750px;
+  top: -65vh;
   left: -120px;
   color: white;
   line-height: 500px;
