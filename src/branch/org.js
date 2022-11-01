@@ -27,6 +27,8 @@ function Org() {
           <div className="row clearfix">
             <div align="center">
               <img src="../images/nexmore/사다리.png" />
+              &nbsp;&emsp;&emsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;
             </div>
           </div>
         </div>

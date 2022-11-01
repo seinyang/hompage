@@ -167,45 +167,9 @@ function Ai() {
                       </li>
                       <br />
                     </li>
-                    <div className="abc">
-                      <div>
-                        <li
-                          style={{
-                            float: "left",
-                            display: "inline-block",
-                          }}
-                        >
-                          <img src="./images/nexmore/cctv.png" />
-                          &emsp;
-                          <img src="./images/nexmore/회살표.png" />
-                          &emsp;
-                        </li>
-                        <figcaption>
-                          <li
-                            style={{
-                              float: "left",
-                              display: "inline-block",
-                              textAlign: "center",
-                            }}
-                          >
-                            <h3>
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;인력
-                              영상(cctv)
-                            </h3>
-                          </li>
-                        </figcaption>
-                      </div>
-                      <li style={{ float: "left" }}>
-                        <img src="./images/nexmore/cctv1.png" />
-
-                        <figcaption>
-                          <h3>쓰레기 투기 탐지 결과/투기 달지 경고 방송</h3>
-                          <br />
-                        </figcaption>
-                      </li>
-                      &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
-                      &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
-                    </div>
+                    <center>
+                      <img src="./images/nexmore/cctv.png" />
+                    </center>
                   </div>
                 </div>
               </div>

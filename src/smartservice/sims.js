@@ -128,11 +128,7 @@ function Sims() {
                     </li>
 
                     <li style={{ float: "left" }}>
-                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                      &nbsp; &nbsp;
                       <img src="../images/nexmore/특.png" />
-                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                      <img src="../images/nexmore/동글.jpg" />
                     </li>
                     <br />
                     <li style={{ float: "left", display: "inline-block" }}>
@@ -191,7 +187,7 @@ function Sims() {
                           &nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;
                           <figcaption>
                             <h3>
-                              스크립트 수행 작업 등록 및 수집
+                              &nbsp;&emsp;&emsp;스크립트 수행 작업 등록 및 수집
                               현황&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;
                             </h3>
                           </figcaption>
@@ -203,10 +199,8 @@ function Sims() {
                           &nbsp;&emsp;&emsp; &nbsp;&emsp;&emsp;
                           <figcaption>
                             <h3>
-                              스크립트 수행 결과
-                              조회&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;
-                              &nbsp;&emsp;&emsp;
-                              &nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;
+                              &nbsp;&emsp;&emsp;스크립트 수행 결과
+                              조회&nbsp;&emsp;
                             </h3>
                           </figcaption>
                         </div>

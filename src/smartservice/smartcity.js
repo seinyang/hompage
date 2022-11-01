@@ -112,10 +112,10 @@ function Smartcity() {
                           조성사업,김천시/양양군&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;스마트타운
                           챌린지 사업 추진 중
                         </li>
+                        &emsp;
                       </p>
                       <center>
                         <img src="../images/nexmore/city1.jpg" />
-                        &emsp;&emsp;&emsp;&emsp;
                       </center>
                       <br />
                       <li style={{ float: "left" }}>
@@ -142,13 +142,14 @@ function Smartcity() {
                           </li>
                         </p>
                       </li>
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <li style={{ display: "inline-block" }}>
+
+                      <li
+                        style={{
+                          display: "inline-block",
+                          objectFit: "contain",
+                        }}
+                      >
                         <center>
-                          &emsp; &emsp; &nbsp;
                           <img src="../images/nexmore/digital.png" />
                         </center>
                       </li>
@@ -179,8 +180,7 @@ function Smartcity() {
                           </li>
                         </p>
                         <center>
-                          <img src="../images/nexmore/twin.jpg" /> &emsp; &emsp;
-                          &nbsp; &emsp; &emsp; &nbsp;
+                          <img src="../images/nexmore/twin.jpg" />
                         </center>
                       </li>
                     </div>
@@ -208,6 +208,7 @@ function Smartcity() {
                             <br />- 안산/인천시 생활밀착형 도시 재생 스마트 기술
                             사업 추진 중
                           </li>
+                          &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
                         </p>
                         <center>
                           <img src="../images/nexmore/soll.jpg" />
@@ -246,11 +247,8 @@ function Smartcity() {
                         </p>
                         <center>
                           <img src="../images/nexmore/zu.jpg" />
-                          &emsp;
                         </center>
                       </li>
-                      <br />
-                      <br />
                       <br />
 
                       <li style={{ float: "left" }}>
@@ -280,7 +278,7 @@ function Smartcity() {
                           <br />
                         </p>
                         <center>
-                          &emsp;&emsp; <img src="../images/nexmore/대기.png" />
+                          <img src="../images/nexmore/대기.png" />
                         </center>
                       </li>
                     </div>

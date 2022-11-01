@@ -160,16 +160,9 @@ function Fusion() {
                         </p>
                       </li>
                     </li>
-
-                    <div className="abc">
-                      <div>
-                        <img src="./images/nexmore/표1.jpg" />
-                        &emsp; &emsp; &emsp; &nbsp;
-                        <img src="./images/nexmore/표2.jpg" />
-                        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
-                      </div>
-                    </div>
-
+                    <center>
+                      <img src="./images/nexmore/표1.jpg" />
+                    </center>
                     <li style={{ float: "left", display: "inline-block" }}>
                       <img src="../images/nexmore/box.jpg" />
                       <li
@@ -199,31 +192,7 @@ function Fusion() {
                     </li>
 
                     <center>
-                      <div className="abc">
-                        <div>
-                          {" "}
-                          &emsp;
-                          <img src="./images/nexmore/지역관광.jpg" />
-                          &emsp; &emsp; &emsp;&nbsp;&nbsp;&nbsp;
-                          <figcaption>
-                            <h3>
-                              지역 관광 기초 환경 보고서 - 17개 시도, 229시군구
-                              단위&nbsp;&nbsp; &emsp;&nbsp;
-                            </h3>
-                          </figcaption>
-                        </div>
-                        <div>
-                          &emsp;
-                          <img src="./images/nexmore/web.jpg" />
-                          &emsp; &emsp; &emsp; &emsp;&emsp; &nbsp;&nbsp;
-                          <figcaption>
-                            <h3>
-                              Web 기반 통계 패키지 &nbsp;&nbsp; &emsp;
-                              &emsp;&emsp;&nbsp;&nbsp;
-                            </h3>
-                          </figcaption>
-                        </div>
-                      </div>
+                      <img src="./images/nexmore/지역관광.jpg" />
                     </center>
                   </div>
                 </div>
