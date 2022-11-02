@@ -35,7 +35,7 @@ function Header() {
                   <div className="navbar-collapse collapse clearfix">
                     <ul className="navigation clearfix">
                       <li className="dropdown">
-                        <Link to="#">Ai&Big Data</Link>
+                        <Link to="/ai">Ai&Big Data</Link>
 
                         <ul>
                           <li>
@@ -53,7 +53,7 @@ function Header() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">스마트 서비스</a>
+                        <Link to="smartcity">스마트 서비스</Link>
                         <ul>
                           <li>
                             <Link to="smartcity">스마트 시티서비스</Link>
@@ -67,7 +67,7 @@ function Header() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">스마트 팩토리</a>
+                        <Link to="smartfactory">스마트 팩토리</Link>
                         <ul>
                           <li>
                             <Link to="smartfactory">스마트팩토리</Link>
@@ -75,7 +75,7 @@ function Header() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="#">회사소개</a>
+                        <Link to="about">회사소개</Link>
                         <ul>
                           <li>
                             <Link to="about">넥스모어시스템즈</Link>

@@ -64,6 +64,7 @@ function Sims() {
                           fontSize: "23px",
                           display: "inline-block",
                           lineHeight: "5px",
+                          verticalAlign: "middle",
                         }}
                       >
                         <h3>개요</h3>
@@ -73,33 +74,44 @@ function Sims() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
+                            textIndent: "-15px",
+                            paddingLeft: "15px",
                             fontSize: "20px",
                           }}
                         >
                           <strong>
                             - 서비스운영 센터의 H/W, S/W 정보를 IP기반 연결로
                             자동 수집해 자산 현행화를 유지하고, 수집된 데이터{" "}
-                            <br />
-                            &nbsp;&nbsp;필터링 및 분석으로 운용 자산을
-                            효율적으로 관리하기 위한 솔루션
-                            <br />- 수집된 데이터를 기반으로 빅데이터, AI 분석의
-                            기초 자료로 활용될 수 있으며 고장, 장애 예측과 같은{" "}
-                            실질적인 <br />
-                            &nbsp;&nbsp; 자산 관리 서비스 제공 가능
+                            필터링 및 분석으로 운용 자산을 효율적으로 관리하기
+                            위한 솔루션{" "}
+                            <li
+                              style={{
+                                textAlign: "left",
+                                lineHeight: "35px",
+
+                                fontSize: "20px",
+                              }}
+                            >
+                              - 수집된 데이터를 기반으로 빅데이터, AI 분석의
+                              기초 자료로 활용될 수 있으며 고장, 장애 예측과
+                              같은 실질적인 자산 관리 서비스 제공 가능
+                            </li>
                           </strong>
                         </li>
                       </p>
                     </li>
                     <li style={{ float: "left" }}>
+                      <br />
                       <img src="../images/nexmore/box.jpg" />
                       <li
                         style={{
-                          fontSize: "23px",
+                          fontSize: "20px",
                           display: "inline-block",
                           lineHeight: "5px",
+                          verticalAlign: "middle",
                         }}
                       >
-                        <br /> <br /> <h3>특장점</h3>
+                        <h3>특장점</h3>
                       </li>
                       <br />
                       <p>
@@ -107,22 +119,71 @@ function Sims() {
                           style={{
                             textAlign: "left",
                             lineHeight: "35px",
+                            textIndent: "-15px",
+                            paddingLeft: "15px",
                             fontSize: "20px",
                           }}
                         >
                           - Linux/Unix 기반 서버에 SSH Key 방식으로 접속
-                          <br />
+                        </li>
+                        <li
+                          style={{
+                            textAlign: "left",
+                            lineHeight: "35px",
+                            textIndent: "-15px",
+                            paddingLeft: "15px",
+                            fontSize: "20px",
+                          }}
+                        >
                           - Public Key 설치 서버에 접속하여 스크립트 배포, 실행,
                           수집, 파싱 수행
-                          <br />
+                        </li>
+                        <li
+                          style={{
+                            textAlign: "left",
+                            lineHeight: "35px",
+                            textIndent: "-15px",
+                            paddingLeft: "15px",
+                            fontSize: "20px",
+                          }}
+                        >
                           - sudoers에 명시된 명령어만 실행 가능하여 위험 명령
                           수행 방지
-                          <br />- 수집된 정보로부터 서버 버전 관리, 디스크,
-                          메모리 등 자원 정보 확인 가능
-                          <br />
+                        </li>
+                        <li
+                          style={{
+                            textAlign: "left",
+                            lineHeight: "35px",
+                            textIndent: "-15px",
+                            paddingLeft: "15px",
+                            fontSize: "20px",
+                          }}
+                        >
+                          - 수집된 정보로부터 서버 버전 관리, 디스크, 메모리 등
+                          자원 정보 확인 가능
+                        </li>
+                        <li
+                          style={{
+                            textAlign: "left",
+                            lineHeight: "35px",
+                            textIndent: "-15px",
+                            paddingLeft: "15px",
+                            fontSize: "20px",
+                          }}
+                        >
                           - 필요시 사용자 작성 스크립트 수행 기능
-                          <br />- 다수 서버의 H/W, S/W 및 자원 정보를 스케줄,
-                          SMS, E-mail을 통해 관리 가능
+                        </li>
+                        <li
+                          style={{
+                            textAlign: "left",
+                            lineHeight: "35px",
+                            textIndent: "-15px",
+                            paddingLeft: "15px",
+                            fontSize: "20px",
+                          }}
+                        >
+                          - 다수 서버의 H/W, S/W 및 자원 정보를 스케줄, SMS,
+                          E-mail을 통해 관리 가능
                         </li>
                       </p>
                     </li>
